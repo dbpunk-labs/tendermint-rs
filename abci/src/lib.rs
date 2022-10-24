@@ -5,7 +5,7 @@
 mod application;
 #[cfg(feature = "client")]
 mod client;
-mod codec;
+pub mod codec;
 pub mod error;
 mod server;
 
